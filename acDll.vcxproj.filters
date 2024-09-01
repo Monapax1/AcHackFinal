@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="setupHooksandNops">
+      <UniqueIdentifier>{a9a96447-a9da-415b-8659-99f8a20c09f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{468ec5c1-0675-493a-b24d-18782ff94293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainHackLoop">
+      <UniqueIdentifier>{2b8e19da-9d4d-4918-9f47-790aeb86fcda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structs">
+      <UniqueIdentifier>{4c40dcd4-01f4-44df-b8b7-a27274a03dac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConsoleAndInput">
+      <UniqueIdentifier>{bd181986-aadc-4ffb-b4bd-1bf3b4b7615f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="global">
+      <UniqueIdentifier>{2d9612f9-cb99-441a-ac5a-c2f81760d487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Harvest">
+      <UniqueIdentifier>{e4fb8cc6-8871-4fef-acfd-039c1533d26c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aimbot">
+      <UniqueIdentifier>{d4ca173b-6038-4de0-8ec2-821437335cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Esp">
+      <UniqueIdentifier>{d7efa697-90d3-4aad-b228-59f9d9f1ab69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extras">
+      <UniqueIdentifier>{dad86c51-7f91-4b38-81b4-6fdb93cf78cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="setupHooksandNops.h">
+      <Filter>setupHooksandNops</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="mainHackLoop.h">
+      <Filter>mainHackLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>structs</Filter>
+    </ClInclude>
+    <ClInclude Include="consoleAndInput.h">
+      <Filter>ConsoleAndInput</Filter>
+    </ClInclude>
+    <ClInclude Include="harvest.h">
+      <Filter>Harvest</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>global</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Esp.h">
+      <Filter>Esp</Filter>
+    </ClInclude>
+    <ClInclude Include="godmode2.h">
+      <Filter>extras</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="setupHooksandNops.cpp">
+      <Filter>setupHooksandNops</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="mainHackLoop.cpp">
+      <Filter>mainHackLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>structs</Filter>
+    </ClCompile>
+    <ClCompile Include="consoleAndInput.cpp">
+      <Filter>ConsoleAndInput</Filter>
+    </ClCompile>
+    <ClCompile Include="harvest.cpp">
+      <Filter>Harvest</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Esp.cpp">
+      <Filter>Esp</Filter>
+    </ClCompile>
+    <ClCompile Include="godmode2.cpp">
+      <Filter>extras</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
